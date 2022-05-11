@@ -20,13 +20,13 @@ Fine-grained visual classification aims to recognize the objects belonging to mu
 - Results and Comparisons (All the models were trained for only 200 epochs; increasing the number of epochs for training may increase the resultant the performance)
 
 ## Proposed Model - Pre-training using Cross-Contrastive loss with Meta information
-![Model pre-training](architecture.png)
+![Model pre-training](Architecture.png)
 
 ## Proposed Model - Finetuning after pre-traing of the model
-![Model inference](architectureinfer.png)
+![Model inference](ArchitectureInfer.png)
 
 ## Model visual Output: location embedding and Heat-map for European Starling bird
-![visual results](visual.png)
+![visual results](Visual.png)
 
 
 ## Requirements
