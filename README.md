@@ -20,27 +20,23 @@ Fine-grained visual classification aims to recognize the objects belonging to mu
 - Results and Comparisons (All the models were trained for only 200 epochs; increasing the number of epochs for training may increase the resultant the performance)
 
 ## Proposed Model - Pre-training using Cross-Contrastive loss with Meta information
-![Model Architecture](figures/atten_Unet_GAN.png)
+![Model pre-training](architecture.png)
 
-## Proposed Model - Pre-training using Cross-Contrastive loss with Meta information
-![Model Architecture](figures/atten_Unet_GAN.png)
+## Proposed Model - Finetuning after pre-traing of the model
+![Model inference](architectureinfer.png)
 
 ## Model visual Output: location embedding and Heat-map for European Starling bird
-![Denoise a random image in original dataset](figures/results.png)
+![visual results](visual.png)
 
 
 ## Requirements
 - 128GB RAM
 - Pytorch 1.0
-- Numpy + Rawpy
-- Matplotlib
 - GPU : Nvidia RTX1800
 
 ## References 
 
-- [1] https://github.com/huyvnphan/Learning_To_See_In_The_Dark
-- [2] https://github.com/LeeJunHyun/Image_Segmentation
-- [3] https://github.com/ozan-oktay/Attention-Gated-Networks
-- [4] https://github.com/aladdinpersson/Machine-Learning-Collection/tree/master/ML/Pytorch/GANs
-- [6] Isola, P., Zhu, J. Y., Zhou, T., & Efros, A. A. (2017). Image-to-image translation with conditional adversarial networks. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 1125-1134).
-- [7] Chen Chen, Qifeng Chen, Jia Xu, and Vladlen Koltun. Learning to see in the dark. 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 3291–3300, 2018. 2, 3, 4
+- [1] https://dl.allaboutbirds.org/nabirds
+- [2] https://github.com/macaodha/geo_prior
+- [3] https://github.com/HobbitLong/SupContrast
+- [4] https://openai.com/blog/clip/
